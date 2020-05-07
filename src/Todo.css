@@ -1,0 +1,58 @@
+.card__item {
+  height: auto;
+  min-height: 40px;
+  /* border: 1px solid red; */
+  border-bottom: 1px solid #E2E3E5;
+
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+}
+
+.card__item:hover {
+  background-color: rgba(0,0,0,.1);
+  transition: background-color 0.05s ease-in;
+}
+
+.card__item input {
+  align-self: center;
+  justify-self: center;
+}
+
+.card__text {
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+
+/* utility classes */
+
+.card__text--complete {
+  /* change color or something */
+  text-decoration: line-through;
+}
+
+.card__icon {
+  padding: 10px;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  border: 0px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+  justify-self: center;
+
+  transition: background-color 0.1s ease;
+
+}
+
+
+
+.card__icon--delete:hover {
+  color: white;
+  background-color: #FF4136;
+  /* opacity: .6; */
+}
+
+.card__icon--delete:active {
+  opacity: 1;
+}

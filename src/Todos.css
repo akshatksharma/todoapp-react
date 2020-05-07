@@ -1,0 +1,32 @@
+.cards {
+  box-sizing: content-box;
+  grid-column: content;
+  justify-self: center;
+
+  padding: 10px;
+  /* border: 1px solid red; */
+  border: 1px solid #E2E3E5;
+  min-height: 500px;
+  max-height: 700px;
+  width: 40%;
+  min-width: 300px;
+  max-width: 1000px;
+
+  overflow: scroll;
+
+  display: grid;
+  align-items: center;
+
+  grid-auto-rows: 40px;
+  grid-gap: 10px;
+}
+
+
+.noFormat {
+  /* padding: 0px; */
+  background: none;
+	color: inherit;
+  border: none;
+	cursor: pointer;
+	outline: inherit;
+}

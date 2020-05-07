@@ -1,0 +1,74 @@
+
+.addbar {
+  grid-column: content;
+  justify-self: center;
+  width: 39%;
+  min-width: 300px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+
+  margin-bottom: 10px;
+}
+
+
+.addbar .card__icon {
+  padding: 10px;
+}
+
+
+.card__add {
+  background-color: #F0F1F3;
+  box-sizing: content-box;
+  display: grid;
+  grid-template-columns: 1fr 40px 40px 40px;
+  grid-auto-flow: column;
+  border: 1px solid #E2E3E5;
+  border-radius: 5px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.card__add input::-webkit-input-placeholder {
+  font-size: 12px;
+}
+
+.card__add input {
+  cursor: text;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+
+}
+
+.card__add input[type=submit] {
+  box-sizing: border-box;
+  padding: 0px;
+  width: 57.9px;
+}
+
+
+.card__icon--add:hover {
+  color: white;
+  background-color: #57C873;
+}
+
+.card__icon--sort:hover {
+  color: white;
+  background-color: #77d4d0;
+}
+
+
+
+
+.card__icon--trash:hover {
+  /* transition: transform .5s, filter .05s ease-in-out; */
+  color: white;
+  background-color: #FF4136;
+}
+
+.card__icon--trash:checked {
+  /* transition: transform .5s, filter .05s ease-in-out; */
+  color: white;
+  background-color: #FF4136;
+}

@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  background-color: #fafafa;
+}
+
+p {
+  margin: 0px;
+  font-size: 14px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+
+.page {
+  background-color: #fafafa;
+  width: 100%;
+  display: grid;
+  grid-template-columns: [left-gutter] 1fr [content] 8fr [right-gutter] 1fr;
+}
+
+.header {
+  grid-column: content;
+  justify-self: center;
+}
+
+
+.hidden {
+  display: none;
+}
